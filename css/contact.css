@@ -94,3 +94,123 @@ border-width: 3px;
 .divler{
     margin-bottom: 40px ;
 }
+
+
+
+.sidebar-img-div{
+    border: #555252;
+flex-direction: column;
+border-radius: 5px;
+border-color: #555252;
+border-width: 2px;
+clear: both;
+    list-style: outside none none;
+    margin: 0 0 30px;
+    overflow: hidden;
+    padding: 10px 15px;
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid #eee;
+}
+
+.sidebar-divs{
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-img{
+    border-radius: 10px;
+    border-top: 4px solid;
+    margin-top: 10px;
+}
+
+.recent-span {
+    border-color: #3679dd !important;
+    border-bottom: 3px solid;
+    margin-bottom: 5px;
+}
+
+.spanin-divi{
+    border-bottom: 1px solid;
+    border-color: #eee;
+}
+
+
+.tags-class{
+    
+    
+    overflow: hidden;
+    padding: 10px 15px;
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid #eee;
+    margin-bottom: 30px;
+
+}
+.birinci{
+    border: 1px solid #eee;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+.birinci:hover{
+    background-color: #007bff;
+    color: white;
+}
+.tags-1{
+    margin: 10px 0px 10px 0px;
+}
+.tags-2{
+    margin: 10px 0px 10px 0px;
+}
+
+.sidebar-catecories{
+    margin: 0 0 30px;
+    overflow: hidden;
+    padding: 10px 15px;
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid #eee;
+}
+
+.s-c-1{
+    border-bottom: 1px solid #eee;
+}
+
+.s-c-s{
+    border-bottom: 3px solid #3679dd;
+}
+
+.span-4{
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+}
+
+.s-c-2{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px 10px 0px;
+}
+
+.img-sidebar{
+    color: #3679dd;
+    float: left;
+    padding: 3px;
+    margin-right: 7px;
+    border-radius: 50%;
+}
+
+.sidebar-div-1{
+    border-bottom: 1px solid #eee;
+    padding: 15px 0px 15px 0px;
+    color: #3679dd;
+}
+
+.maps{
+    background-color: #007bff;
+    width: 880px;
+    height: 300px;
+    position: relative;
+    bottom: 900px;
+    left: 310px;
+}
