@@ -62,7 +62,7 @@
     -webkit-font-smoothing: antialiased;
 }
 
-.col-lg-4{
+.img-about-2 .col-lg-4{
     width: 66%;
 }
 
@@ -70,4 +70,102 @@
 .h33{
     margin-left: auto;
     margin-right: auto;
+}
+.img-about-2{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.shippings{
+    display: flex;
+    /* margin-left: auto;
+    margin-right: auto; */
+    background-color:#f5f6f9 ;
+    /* margin-left: 480px;
+    margin-right: 480px; */
+    margin-top: 50px;
+    padding-bottom: 50px;
+    
+}
+
+.img-about-1 .col-lg-3{
+    width: 100%;
+}
+
+.shippings-intro{
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-align: center;
+    margin-right: 80px;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+.shippings-div{
+    
+    /* margin-left: auto;
+    margin-right: auto; */
+    background-color:#f5f6f9 ;
+    
+}
+
+
+.shippings-intro::after{
+    height: 105px;
+    top: 27px;
+    content: '';
+    border-left: 1px solid #1f1b1b;
+    right: 0;
+    position: absolute;
+    /* z-index: 1; */
+}
+
+
+.best-teams-img{
+    position:relative;
+    height: 100%;
+    width: 100%;
+}
+
+.iconnar{
+    display: flex;
+    position: relative;
+    
+    right: 10px;
+   justify-content: center;
+   color: rgb(0, 203, 253);
+}
+
+.images{
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.best-teams .col-lg-3{
+    width: 100%;
+    /* margin-left: 10px;
+    margin-right: 10px; */
+}
+.yazilar{
+    text-align: center;
+    padding: 15px;
+    background-color: #f3f7f8;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: 0.3s ease;
+}
+
+.taemname{
+    /* color: #000; */
+    font-size: 20px;
+    font-weight: 400;
+    margin: 5px 0 12px;
+    text-transform: capitalize;
+    display: block;
+}
+.images:hover .yazilar{
+background-color: blue;
+color: white !important;
+
 }
