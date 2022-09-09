@@ -1,0 +1,227 @@
+@media only screen and (max-width: 450px){
+    .login{
+        width: 65%;
+        right: 18%;
+        height: 80%;
+    }
+    #best-deals-responsive .owl-carousel-responsive .owl-nav{font-size: 20px !important; bottom: 339px !important;}
+#best-deals-responsive  .owl-carousel-responsive .owl-nav button{
+    box-shadow: 0px 0px 5px #c6c1c1;
+    border: 1px solid #c1c1c1;
+    background: #fff;
+    border-radius: 50%;
+}
+#best-deals-responsive  .owl-carousel-responsive .owl-nav button:hover{color: #fff; background-color: #015ade;}
+#best-deals-responsive  .owl-carousel-responsive .owl-nav button i{
+    margin-left: 0;
+    padding: 5px 6px;
+}
+
+#top-rated-product-responsive .owl-sixth .owl-nav{font-size: 25px;}
+#top-rated-product-responsive .owl-sixth .owl-nav button{
+    box-shadow: 0px 0px 5px #c6c1c1;
+    border: 1px solid #c1c1c1;
+    background: #fff;
+    border-radius: 50%;
+}
+#top-rated-product-responsive .owl-sixth .owl-nav button:hover{color: #fff; background-color: #015ade;}
+#top-rated-product-responsive .owl-sixth .owl-nav button i{
+    margin-left: 0;
+    padding: 5px 6px;
+}
+    #sign-in-bg{height: 371em;}
+    #main-inner .ads{display: none !important;}
+
+    #main-inner .title  h3 {font-size: 18px;}
+
+    #main-inner .title  h1 {font-size: 18px;}
+    
+    #product-carousel .owl-nav{bottom: 325px;}
+
+    #ads-image .ads-title {
+        top: 0;
+        left: auto;
+        padding: 10px;
+    }
+
+    #ads-image .ads-title h2{display: none;}
+
+    #best-deals-responsive .owl-carousel-responsive .owl-nav{
+        position: absolute;
+        bottom: 570px;
+        font-size: 50px;
+        right: 0;
+    }
+
+    #customer-review .owl-nav{bottom: 290px;}
+
+    #product-carousel .product-carousel-title h2{display: none;}
+
+    #discount-product .righ-discount-img{margin-top: 15px;}
+
+    #top-rated-product-responsive .owl-nav{bottom: 310px;}
+
+    #best-seller{display: none;}
+
+    #shipping .container{display: block !important;}
+
+    #FAQ{display: none;}
+
+    #FAQ-responsive{display: block;}
+    #FAQ-responsive .download{display: block !important;}
+
+    #FAQ-responsive .social-media p{display: none;}
+
+    #FAQ-responsive .social-media{justify-content: center !important;}
+
+    #FAQ-responsive .social-media ul li a i{
+        background-color: #fff;
+        margin-right: 5px;
+        border-radius: 50%;
+        padding: 15px;
+        width: 47px;
+        height: 45px;
+        border: 1px solid #c2bfbf;
+    
+    }
+
+    #FAQ-responsive .Information-item{display: none;}
+
+    #FAQ-responsive .footer-category-item{display: none;}
+    
+    #FAQ-responsive .contactUs-item{display: none;}
+
+    #FAQ-responsive .contactUs-item ul{display: block !important;}
+
+    #FAQ-responsive .contactUs-item ul li{margin-top: 10px;}
+
+    #FAQ-responsive .contactUs-item ul li i{
+        margin-right: 10px;
+        font-size: 20px;
+        color: blue;
+    }
+
+    #electronic-accesories{display: none;}
+}
+
+
+
+@media only screen and (max-width: 780px) {
+    .login{
+        width: 45%;
+        right: 30%;
+        height: 80%;
+    }
+    #sign-in-bg{
+        height: 386em;
+    }
+    #header-top{display: none;}
+
+    .search{display: none;}
+
+    #navbar{display: none;}
+
+    #navbar-responsive{display: block;}
+
+    #navbar-responsive .hamburger-item{
+        position: absolute;
+        background: #fff;
+        height: 100%;
+        z-index: 1;
+        width: 40%;
+        padding: 10px 20px;
+    }
+
+    #navbar-responsive .hamburger-item{display: none;}
+
+    #navbar-responsive .hamburger-item ul li {margin-top: 15px;} 
+
+    #navbar-responsive .hamburger-item ul li a{margin-left: 0;}
+
+    #navbar-responsive .nav-responsive{padding: 10px 16px;}
+
+    #navbar-responsive .nav-responsive .icons{font-size: 25px;}
+
+    #navbar-responsive .nav-responsive .icons a{margin-left: 15px;}
+
+    #categories-responsive{display: block;}
+
+    .categories-res .categories{padding: 5px;}
+
+    .categories-res .categories select{padding: 0 10px;}
+
+    #main-inner .title{top: 5%;}
+
+    #main-inner .title button{padding: 10px;}
+
+    #main-inner .ads .ads-1 .title h2{font-size: 15px;}
+
+    #main-inner .ads .ads-1 .title h3{font-size: 20px;}
+
+    #main-inner .ads .ads-1 .title p{display: none;}
+
+    #main-inner .ads .ads-2 .title h2{font-size: 15px;}
+
+    #main-inner .ads .ads-2 .title h3{font-size: 20px;}
+
+    #main-inner .ads .ads-2 .title p{display: none;}
+
+    #product-carousel .owl-nav{bottom: 360px;}
+
+    #ads-image .ads-title h3{font-size: 17px;}
+
+    #ads-image .ads-title h2{font-size: 20px;}
+
+    #top-categories .item .item-img{
+        width: 100%;
+        height: 150px;
+    }
+
+    #top-categories .owl-nav{bottom: 280px;}
+    
+    #best-deals{display: none;}
+
+    #best-deals-responsive{display: block;}
+
+    #customer-review .owl-nav{bottom: 320px;}
+
+    #discount-product .left-discount-img .discount-title{margin: 15px;}
+
+    #discount-product .left-discount-img .discount-title h2{font-size: 18px;}
+
+    #discount-product .left-discount-img .discount-title h4{font-size: 15px;}
+
+    #discount-product .left-discount-img .discount-title button{padding: 8px 20px;}
+
+    #discount-product .left-discount-img .discount-title p{display: none;}
+
+    #discount-product .righ-discount-img .discount-title{margin: 15px;}
+
+    #discount-product .righ-discount-img .discount-title h2{font-size: 18px;}
+
+    #discount-product .righ-discount-img .discount-title h4{font-size: 15px;}
+
+    #discount-product .righ-discount-img .discount-title button{padding: 8px 20px;}
+
+    #discount-product .righ-discount-img .discount-title p{display: none;}
+    
+    #top-rated-product {display: none;}
+
+    #top-rated-product-responsive{display: block;}
+
+    #top-rated-product-responsive{background-color: #f5f5f5;}
+
+    #best-seller img{width: 100%;}
+
+    #best-seller .product-carousel-title h2{margin-left: 115px !important;}
+
+    #best-seller .right-image {width: 50%;}
+
+    #best-seller .right-image .right-img-title{padding: 10px;}
+    
+    #shipping .container {flex-wrap: wrap; justify-content: flex-start !important;}
+
+    #FAQ .download img{height: 10%;}
+
+  }
+

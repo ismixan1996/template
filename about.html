@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+
+
+    <link rel="stylesheet" href="./assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/owl.theme.default.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
+    <link rel="stylesheet" href="<link rel=" stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+    <link rel="stylesheet" href="./assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./css/owl.carousel.css">
+    <link rel="stylesheet" href="./css/owl.theme.css">
+    <link rel="stylesheet" href="./css/responsive .css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/menu.scss">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+
+
+
+    <title>METRO ONLINE</title>
+    <link rel="icon" type="image/x-icon" href="/assets/Home - Metro_files/mob-logo.png">
+
+    <link rel="stylesheet" href="./css/about.css">
+
+
+</head>
+
+<body onload="myFunction()" style="margin:0;">
+
+
+    <div id="preloader"></div>
+    <!-- onload="myFunction()"  -->
+    <!-- <div id="loader"><img  src="./assets/Home - Metro_files/loader.gif" alt=""></div> -->
+
+
+
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+        <img src="./assets/Home - Metro_files/scroll.svg" alt="">
+    </button>
+
+    <div id="sign-in-bg">
+    </div>
+    <div class="login">
+        <a class="close-login-btn" href=""><i style="margin-left: 0;" class="fa-solid fa-xmark"></i></a>
+        <h4 class="text-center">Subscribe to our newsletter
+        </h4>
+        <p style="border-bottom: 1px solid #b4b4b4;
+      padding-bottom: 17px" class="text-center">Want to be notified when our article is published? Enter your email
+            address and name below to be the first to know.</p>
+        <div class="email">
+            <input type="text" placeholder="Email">
+        </div>
+        <div class="name">
+            <input type="text" placeholder="Name">
+        </div>
+
+        <button>SIGN UP FOR NEWSLETTER NOW</button>
+    </div>
+
+
+
+    <div id="body">
+
+
+        <!--button-->
+        <div id="chat-circle" class="btn btn-raised">
+
+            <div id="chat-overlay"></div>
+            <!--<i class="material-icons">android</i>-->
+
+            <img class="chat-circle_robot" src="./assets/Home - Metro_files/c05457279f9fced55a1dfa35b3da908e.png">
+
+            <div class="msgalertmonster">
+                <div>
+                    <i class="fa-solid fa-xmark closebutton"></i>
+                </div>
+                <div>
+                    <span>Hi! Welcome back. How are you doing?</span>
+                </div>
+            </div>
+        </div>
+
+        <!--chat-bot-->
+        <div class="chat-box">
+
+            <div class="chat-box-body">
+                <!--welcome message-->
+                <div class="chat-box-welcome__header">
+                    <div style="background-color:#ffffff !important ; display: flex; justify-content: space-between;"
+                        class="chat-box__header-text">
+                        <!-- <i class="fa-solid fa-ellipsis"></i> -->
+                        <div class="dropdown">
+                            <button class="fa-solid fa-ellipsis btn  " type="button" data-bs-toggle="dropdown"
+                                aria-expanded="true">
+
+                            </button>
+                            <ul class="dropdovn dropdown-menu">
+                                <!-- <li><button class="dropdown-item" type="button">Action</button></li>
+                              <li><button class="dropdown-item" type="button">Another action</button></li>
+                              <li><button class="dropdown-item" type="button">Something else here</button></li>
+                            </ul> -->
+                        </div>
+                        <!-- <div class="fa-solid fa-ellipsis"> 
+                            <ul class="menubar">
+  
+                                <li>
+                                  <a href="#">Help</a>
+                                  <ul>
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">About</a></li>
+                                  </ul>
+                                </li>
+                              </ul>
+                        </div> -->
+
+                        <div>
+                            <div>
+                                <h1 style="font-size:small ;">Live Chat</h1>
+                            </div>
+                        </div>
+
+                        <i class="fa-solid fa-window-minimize chat-box-toggle"></i>
+                        <!-- <button class="chat-box-toggle"> </button> -->
+
+                        <!-- <span class="chat-box-toggle"><i class="material-icons">X</i></span> -->
+                    </div>
+                    <div class="catboximgbalaca">
+
+
+                        <img src="./assets/Home - Metro_files/c05457279f9fced55a1dfa35b3da908e (1).png" alt="">
+                        <span>Monster Bot</span>
+                        <span>00:06</span>
+
+                    </div>
+
+                    <div class="catboxh2ikinci">
+                        <h2 class="monsterbotimg">Hi! Welcome back. How are you doing?</h2>
+                    </div>
+                    <div class="divakifinsekli"><i class="fa-regular fa-user  akifinsekli"></i></div>
+
+                    <div>
+                        <div>
+                            <form class="catboxform" style="color:#ffffff ;" action="">
+                                <div>
+                                    <h2></h2>
+                                    <h2 style="color: black ;" class="catboxh2">Have a question? Please fill in the form
+                                        below, and our chat agent will gladly help you! </h2>
+
+                                </div>
+                                <div>
+                                    <span class="catboxspan" style="color:black ; font-size: 12px;">Name: </span>
+                                    <input class="catboxinput" style="border: radius 3px; ;" type="text">
+                                </div>
+                                <div>
+                                    <span class="catboxspan" style="color: black; font: size 12px; ;">E-mail:</span>
+                                    <input class="catboxinput" type="text">
+                                </div>
+                                <button class="catboxbutton">
+                                    <span>Start the chat</span>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="catboxfooter">
+
+                        <a href="">
+                            <span style="color: black; text-decoration: none;">Powered By</span>
+                            <i style="color: red;" class="fa-regular fa-comment"></i>
+                            <span style="font-weight:bold  ; color: black;"> Live Chat</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!--chat-bot after welcome was toggled-->
+                <div id="chat-box__wraper">
+                    <div class="chat-box-header">
+                        ChatBot
+                        <span class="chat-box-toggle"><i class="material-icons">cancel</i></span>
+                    </div>
+
+
+
+                    <div class="chat-box-overlay">
+                    </div>
+                    <div class="chat-logs">
+                        <div id="cm-msg-0" class="chat-msg bot">
+                            <span class="msg-avatar">
+                                <!--<i class="material-icons">android</i>-->
+                                <img class="chat-box-overlay_robot"
+                                    src="./assets/Home - Metro_files/c05457279f9fced55a1dfa35b3da908e.png">
+                            </span>
+                            <div class="cm-msg-text">
+                                Hi! I'm ChatBot IDA, what can I assist you with?
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--chat-log-->
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+    <!---HEADER-->
+    <header>
+        <section id="header-top">
+            <div class="container d-flex justify-content-between p-2">
+                <div class="number">
+                    <!-- <img src="./assets/Home - Metro_files/call.svg" alt=""> -->
+                    <span><i class=""><img style="border: radius 0px !important; "
+                                src="./assets/Home - Metro_files/call.svg" alt=""></i> +2354 3256 326 </span>
+                    <span><i class=""><img style="border: radius 0px !important; "
+                                src="./assets/Home - Metro_files/label.svg" alt=""></i> demo@example.com </span>
+
+                </div>
+
+                <!-- <div class="exchange">
+                    <select name="" id="">
+                        <option value="">USD</option>
+                        <option value="">INR</option>
+                    </select>
+                    <ul>
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            TRY
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">USD</a></li>
+                        </ul>
+                    </ul>
+
+
+                </div> -->
+                <div class="exchange">
+                    <a class="exchange-btn" href="">USD<i class="fa-solid fa-angle-down"></i></a>
+                    <div class="exchange-item">
+                        <span>INR</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+    </header>
+
+    <!--SEARCH-->
+
+    <section class="search">
+        <div class="container mt-3">
+            <div class="row">
+                <div class="image col-lg-3">
+                    <a href="./index.html"><img class="sekil" src="./assets/logo.png" alt="img1"></a>
+                    <!-- <img class="sekil" src="./assets/logo.png" alt="img1"> -->
+
+                </div>
+
+
+                <div class="categories col-lg-6">
+                    <select name="" id="">
+                        <option value="">All Categories</option>
+                        <option value="">Bag</option>
+                        <option value="">Camera</option>
+                        <option value="">Headphones</option>
+                        <option value="">Mouse</option>
+                        <option value="">Phone</option>
+                        <option value="">Shoes</option>
+                        <option value="">Speaker</option>
+                        <option value="">Stove</option>
+                        <option value="">Watch</option>
+
+
+                    </select>
+                    <input type="text" placeholder="Search Products...">
+                    <button class="search-btn">Search</button>
+
+                </div>
+
+                <div class="logo col-lg-3 ">
+                    <img src="https://elementor.dostguru.com/metro/wp-content/themes/metro/images/webi/svg/label1.svg"
+                        alt="img2">
+                    <h4>Visit hot products</h4>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--navbar-->
+
+    <!-- <section id="navbar">
+        <div class="container">
+            <div class="row">
+                <div class=" dropdown  nav-links col-lg-8">
+                    <ul>
+                        <li><a class=" categories-btn" href=""><i class="fa-solid fa-bars-staggered"></i>All
+                                Categories</a></li>
+                        <li><a class="home" href="">Home</a></li>
+                        <li><a href="./shop.html">Shop</a></li>
+                        <li><a href="#">Blog<i class="  fa-solid fa-angle-down"></i></a></li>
+
+                        <div class=" dropdown-content">
+                            <a href="#">Left Sidebar</a>
+                            <a href="#">Right Sidebar</a>
+                            <a href="./nosidebar.html">No Sidebar</a>
+
+                        </div>
+
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Contact Us</a></li>
+                    </ul>
+
+                </div>
+
+                <div class="sign-in col-lg-4 ">
+                    <ul>
+                        <li><a href=""><i class="fa-regular fa-user"></i>Sign In</a></li>
+                        <li><a href=""><i class="fa-regular fa-heart"></i>Wishlist</a></li>
+                        <li><a href=""><i class="fa-solid fa-cart-shopping"></i>Cart</a></li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section> -->
+
+
+    <section id="navbar">
+        <div class="container">
+            <div class="row">
+                <div class="nav-links col-lg-8 position-relative">
+                    <ul>
+                        <li>
+                            <a style="color: black;" class="categories-btn" href=""><i
+                                    class="fa-solid fa-align-left"></i>All Categories</a>
+                            <div class="categories-item">
+                                <ul class="d-block">
+                                    <li>
+                                        <a style="color: black;" class="shoes-btn" href="">Shoes</a>
+                                        <div class="shoes-item">
+                                            <div class="row align-items-baseline">
+                                                <div class="stove col-lg-2">
+                                                    <h6><b style="color: black;">STOVE</b></h6>
+                                                    <ul class="d-block">
+                                                        <li><a style="color: black;" href="">Phone</a></li>
+                                                        <li><a style="color: black;" href="">Speaker</a></li>
+                                                        <li><a style="color: black;" href="">Camera</a></li>
+                                                        <li><a style="color: black;" href="">Watch</a></li>
+                                                        <li><a style="color: black;" href="">Stove</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="shoes col-lg-2">
+                                                    <h6><b>SHOES</b></h6>
+                                                    <ul class="d-block">
+                                                        <li><a style="color: black;" href="">Phone</a></li>
+                                                        <li><a style="color: black;" href="">Speaker</a></li>
+                                                        <li><a style="color: black;" href="">Camera</a></li>
+                                                        <li><a style="color: black;" href="">Watch</a></li>
+                                                        <li><a style="color: black;" href="">Stove</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="top-rated-product col-lg-8">
+                                                    <h6 class="text-center">
+                                                        <b>TOP RATED PRODUCT</b>
+                                                    </h6>
+                                                    <div class="rated-product row">
+                                                        <div class="nav-image col-lg-6 d-flex justify-content-end">
+                                                            <img style="width: 50%"
+                                                                src="https://elementor.dostguru.com/metro/wp-content/uploads/2022/04/25.jpg"
+                                                                alt="" />
+                                                        </div>
+                                                        <div class="nav-desc col-lg-6">
+                                                            <p>Mi 360 Home Security Camera</p>
+                                                            <span><s>$120.00</s></span>
+                                                            <span><b>$99.00</b></span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="rated-product row">
+                                                        <div class="nav-image col-lg-6 d-flex justify-content-end">
+                                                            <img style="width: 50%"
+                                                                src="https://elementor.dostguru.com/metro/wp-content/uploads/2022/04/12-300x300.jpg"
+                                                                alt="" />
+                                                        </div>
+                                                        <div class="nav-desc col-lg-6">
+                                                            <p>BoAt Bassheads 900 Wired On Ear Headphones</p>
+                                                            <span><s>$220.00</s></span>
+                                                            <span><b>$199.00</b></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row align-items-baseline mt-5">
+                                                <div class="stove col-lg-2">
+                                                    <h6><b>STOVE</b></h6>
+                                                    <ul class="d-block">
+                                                        <li><a href="">Phone</a></li>
+                                                        <li><a href="">Speaker</a></li>
+                                                        <li><a href="">Camera</a></li>
+                                                        <li><a href="">Watch</a></li>
+                                                        <li><a href="">Stove</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="shoes col-lg-2">
+                                                    <h6><b>SHOES</b></h6>
+                                                    <ul class="d-block">
+                                                        <li><a href="">Phone</a></li>
+                                                        <li><a href="">Speaker</a></li>
+                                                        <li><a href="">Camera</a></li>
+                                                        <li><a href="">Watch</a></li>
+                                                        <li><a href="">Stove</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="top-rated-product col-lg-8">
+                                                    <h6 class="text-center"><b>RECENT POSTS</b></h6>
+                                                    <div class="rated-product row mt-3">
+                                                        <div class="nav-image d-flex justify-content-end col-lg-6">
+                                                            <img style="width: 50%; border-radius: 0"
+                                                                src="https://elementor.dostguru.com/metro/wp-content/uploads/2022/03/b2-345x200.jpg"
+                                                                alt="" />
+                                                        </div>
+                                                        <div class="nav-desc col-lg-6">
+                                                            <p>Morbi Lacinia Dolor Ut</p>
+                                                            <span>March 16, 2022</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="rated-product row mt-4">
+                                                        <div class="nav-image d-flex justify-content-end col-lg-6">
+                                                            <img style="width: 50%; border-radius: 0"
+                                                                src="https://elementor.dostguru.com/metro/wp-content/uploads/2022/03/b3-345x200.jpg"
+                                                                alt="" />
+                                                        </div>
+                                                        <div class="nav-desc col-lg-6">
+                                                            <p>Curabitur mollis</p>
+                                                            <span>March 16, 2022</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li><a style="color: black;" href="">Watch</a></li>
+                                    <li><a style="color: black;" href="">Camera</a></li>
+                                    <li><a style="color: black;" href="">Speaker</a></li>
+                                    <li><a style="color: black;" href="">Stove</a></li>
+                                    <li><a style="color: black;" href="">Phone</a></li>
+                                    <li><a style="color: black;" href="">Shoes</a></li>
+                                    <li><a style="color: black;" href="">Watch</a></li>
+                                    <li><a style="color: black;  " href="">More Categories</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a style="color: black;" href="./index.html">Home</a></li>
+                        <li><a style="color: black;" href="./shop.html">Shop</a></li>
+                        <li>
+                            <a style="color: black;" class="blog-btn" href="">Blog<i
+                                    class="fa-solid fa-angle-down"></i></a>
+                            <div class="blog-items">
+                                <ul>
+                                    <li><a href="">Left Sidebar</a></li>
+                                    <li><a href="">Right Sidebar</a></li>
+                                    <li><a href="./nosidebar.html">No Sidebar</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a style="color: black;" href="./about.html">About Us</a></li>
+                        <li><a style="color: black;" href="">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="sign-in col-lg-4">
+                    <ul>
+                        <li>
+                            <a class="nav-sigin-btn" href=""><i class="fa-regular fa-user"></i>Sign In</a>
+                            <div class="signIn-item">
+                                <ul class="d-block">
+                                    <li><a href="">My account</a></li>
+                                    <li><a href="">Checkout</a></li>
+                                    <li><a href="">Wishlist</a></li>
+                                    <li><a href="">Compare</a></li>
+                                    <li><a href="">Login</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href=""><i class="fa-regular fa-heart"></i>Wishlist</a>
+                        </li>
+                        <li>
+                            <a style="position: relative" href=""><i class="fa-solid fa-cart-shopping"></i><span
+                                    class="count">0</span> Cart</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <main>
+        <section id="No-sidebar">
+            <div class="title text-center pt-2 pb-2">
+                <h4>No Sidebar</h4>
+                <span>Home >></span>
+                <span>No Sidebar</span>
+            </div>
+        </section>
+        <section>
+            <div class="container mt-3 mb-5">
+                <div class=" akif col-lg-6 ">
+                    <div class="yazidivi">
+                        <span>ABOUT OUR ONLINE STORE
+                        </span>
+                        <h2>Hello,</h2>
+                        <h2>With 25+ Years Of Experience</h2>
+                        <span>Over 25 years Ecommerce helping companies reach their financial and branding goals.
+                        </span>
+                        <span>The perfect way to enjoy brewing tea on low hanging fruit to identify. Duis autem vel eum
+                            iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu
+                            feugiat nulla facilisis. For me, the most important part of improving at photography.</span>
+                    </div>
+                    <div class="akifinsekli" >
+                        <img class="akifimg"  src="./assets/Home - Metro_files/about3.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section>
+            <div class="span1">
+           
+                <span class="span2" >Our features</span>
+            <span class="span3">We And Our Clients Are Happy To Cooperate With Our Company
+            </span>
+            </div>
+        </section>
+
+
+        <section class="vision">
+            <div class=" baxparrent container col-lg-4">
+                <div class="box1">
+                    <i class="fa-solid fa-network-wired"></i>
+                    <h3>Our Vision</h3>
+                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</span>
+                </div>
+                <div class="box1">
+                    <i class="fa-brands fa-dropbox"></i>
+                    <h3>History Of Beginning​
+                    </h3>
+                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+
+                    </span>
+                </div>
+                <div class="box1">
+                    <i class="fa-solid fa-layer-group"></i>
+                    <h3>What We Really Do?
+                    </h3>
+                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+
+                    </span>
+                </div>
+            </div>
+            
+        </section>
+
+        <section>
+            <div class="span1">
+           
+                <span class="span2" >how it works
+                </span>
+                <h3 class="h33">Our Best Project
+                </h3>
+            </div>
+        </section>
+
+        
+        <section>
+            <div style="display: flex; " class=" container">
+                <div style="margin-right:5px ;" class="col-lg-6">
+                    <div>
+                        <img style="width:100% ;" src="https://elementor.dostguru.com/metro/wp-content/uploads/2022/04/about2-768x465.jpg" alt="">
+                    </div>
+                </div>
+                <div style="margin-left: 5px;" class="col-lg-6">
+                    <div>
+                        <img style="width: 100%;" src="https://elementor.dostguru.com/metro/wp-content/uploads/2022/04/about1-768x465.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <section id="shipping">
+            <div class="container d-flex justify-content-between">
+                <div class="item">
+                    <div class="icon">
+                        <img src="./assets/Home - Metro_files/1-2.png" alt="">
+                    </div>
+                    <div class="shipping-title">
+                        <a href="">
+                            <h4 style="margin: 0;">Free Shipping</h4>
+                        </a>
+                        <p>Deliver to door</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="icon">
+                        <img src="./assets/Home - Metro_files/2-2.png" alt="">
+                    </div>
+                    <div class="shipping-title">
+                        <a href="">
+                            <h4 style="margin: 0;">24x7 Support</h4>
+                        </a>
+                        <p>In safe hands</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="icon">
+                        <img src="./assets/Home - Metro_files/3-1.png" alt="">
+                    </div>
+                    <div class="shipping-title">
+                        <a href="">
+                            <h4 style="margin: 0;">Big Saving</h4>
+                        </a>
+                        <p>At lowest price</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="icon">
+                        <img src="./assets/Home - Metro_files/4-1.png" alt="">
+                    </div>
+                    <div class="shipping-title">
+                        <a href="">
+                            <h4 style="margin: 0;">Money Back</h4>
+                        </a>
+                        <p>Easy to return</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="icon">
+                        <img src="./assets/Home - Metro_files/5-1.png" alt="">
+                    </div>
+                    <div class="shipping-title">
+                        <a href="">
+                            <h4 style="margin: 0;">Online Store</h4>
+                        </a>
+                        <p>a huge branding</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="FAQ">
+            <div class="container mt-4 mb-5">
+                <div class="row align-items-start">
+                    <div class="logo col-lg-4 d-block">
+                        <img class="mb-4" src="./assets/Home - Metro_files/logo.png" alt="">
+                        <p style="line-height: 3;" class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Iste error
+                            amet assumenda dolore exercitationem suscipit dignissimos totam atque recusandae
+                            consequuntur.</p>
+                        <div class="download d-flex justify-content-between">
+                            <p>Download App</p>
+                            <img src="./assets/Home - Metro_files/f1.png" alt="">
+                            <img src="./assets/Home - Metro_files/f2.png" alt="">
+                        </div>
+                        <div class="social-media d-flex mt-3 justify-content-between align-items-center">
+                            <p>Socail Media</p>
+                            <ul>
+                                <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                                <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                                <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                <li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="information col-lg-3 d-block">
+                        <ul class="d-block">
+                            <h4>Information</h4>
+                            <li><a href="">FAQ's</a></li>
+                            <li><a href="">Wishlist</a></li>
+                            <li><a href="">Compare</a></li>
+                            <li><a href="">Delivery Information</a></li>
+                            <li><a href="">Refund and Returns Policy</a></li>
+                            <li><a href="">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="category col-lg-2">
+                        <ul class="d-block">
+                            <h4>Category</h4>
+                            <li><a href="">Phone</a></li>
+                            <li><a href="">Camera</a></li>
+                            <li><a href="">Watch</a></li>
+                            <li><a href="">Stove</a></li>
+                            <li><a href="">Shoes</a></li>
+                            <li><a href="">Mouse</a></li>
+                            <li><a href="">Speaker</a></li>
+                        </ul>
+                    </div>
+                    <div class="contact-us col-lg-3 d-block">
+                        <ul>
+                            <span><b>Contact Us</b></span>
+                            <li><i class="fa-regular fa-envelope-open"></i>demo@example.com</li>
+                            <li><i class="fa-solid fa-location-dot"></i>1093 Marigold Lane, Coral Way, Miami, Florida,
+                                33169</li>
+                            <li><i class="fa-solid fa-phone-volume"></i>Call us : 0123-456-789</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="electronic-accesories">
+            <div class="container">
+                <div class="electronics d-flex align-items-center">
+                    <h4>Electronics : </h4>
+                    <a href="">Camera |</a>
+                    <a href="">Home |</a>
+                    <a href="">Speaker |</a>
+                    <a href="">Camera |</a>
+                    <a href="">Phone |</a>
+                    <a href="">Shoes |</a>
+                    <a href="">Stove |</a>
+                    <a href="">Camera |</a><br>
+                    <a href="">Home |</a>
+                    <a href="">Speaker |</a>
+                    <a href="">Camera |</a>
+                    <a href="">Phone |</a>
+                    <a href="">Shoes |</a>
+                    <a href="">Stove </a>
+                </div>
+                <div class="acesories d-flex align-items-center mt-3">
+                    <h4>Accesories : </h4>
+                    <a href="">Camera |</a>
+                    <a href="">Home |</a>
+                    <a href="">Speaker |</a>
+                    <a href="">Camera |</a>
+                    <a href="">Phone |</a>
+                    <a href="">Shoes |</a>
+                    <a href="">Stove |</a>
+                    <a href="">Camera |</a>
+                    <a href="">Home |</a>
+                    <a href="">Speaker |</a>
+                    <a href="">Camera |</a>
+                    <a href="">Phone |</a>
+                    <a href="">Shoes |</a>
+                    <a href="">Stove </a>
+                </div>
+            </div>
+        </section>
+        <section id="end">
+            <div class="container d-flex justify-content-between mt-5">
+                <div class="desc">
+                    <p>Designed by Demo Theme All rights reserved.</p>
+                </div>
+                <div class="payment">
+                    <img src="./assets/Home - Metro_files/card-1.svg" alt="">
+                    <img src="./assets/Home - Metro_files/card-2.svg" alt="">
+                    <img src="./assets/Home - Metro_files/card-3.svg" alt="">
+                    <img src="./assets/Home - Metro_files/card-4.svg" alt="">
+                </div>
+            </div>
+        </section>
+    </footer>
+
+
+    <section id="navbar-responsive">
+        <div class="hamburger-item">
+            <div class="title d-flex justify-content-between">
+                <h6>Menu</h6>
+                <a class="hamburger-close-btn" href=""><i style="font-size: 25px;" class="fa-solid fa-xmark"></i></a>
+            </div>
+            <ul class="d-block">
+                <li><a href="">Home</a></li>
+                <li><a href="">Shop</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="nav-responsive d-flex justify-content-between align-items-center">
+            <div class="logo d-flex justify-content-around">
+                <a class="hamburger-btn" style="margin-left: 0; font-size: 20px;" href=""><i style="margin-left: 0;"
+                        class="fa-solid fa-bars"></i></a>
+                <img style="margin-right: 0; width: 65%;" src="./assets/images/logo.png" alt="">
+            </div>
+            <div class="icons">
+                <a href=""><i style="margin-left: 0;" class="fa-regular fa-user"></i></a>
+                <a href=""><i style="margin-left: 0;" class="fa-regular fa-heart"></i></a>
+                <a href=""><i style="margin-left: 0;" class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+        integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js"
+        integrity="sha512-6UofPqm0QupIL0kzS/UIzekR73/luZdC6i/kXDbWnLOJoqwklBK6519iUnShaYceJ0y4FaiPtX/hRnV/X/xlUQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./assets/owl.carousel.min.js"></script>
+    <script src="./assets/Home - Metro_files/owl.carousel.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- <script src="./js/jquery-1.9.1.min.js"></script> -->
+    <!-- <script src="./js/owl.carousel.js"></script> -->
+    <script src="./js/bootstrapslider.js"></script>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>

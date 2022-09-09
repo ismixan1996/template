@@ -1,0 +1,73 @@
+#No-sidebar{
+    background-color: #f5f5f5;
+}
+
+.akif{
+    display: flex;
+   
+}
+.yazidivi{
+     position: relative;
+     margin-right: 10px !important;
+   height: 100%;
+   width: 100%;
+}
+.akifinsekli{
+    position: relative;
+    height: 10%;
+    width: 10%;
+} 
+.akifimg{
+    position: relative;
+    height: 80%;
+    margin-left: 0px;
+    width: 1000%;
+    left: 200px;
+}
+.span1{
+    display: flex;
+    flex-direction: column;
+    
+}
+.span2{
+    margin-left: auto;
+    margin-right: auto;
+}
+.span3{
+    margin-left: auto;
+    margin-right: auto;
+}
+.box1{
+    background-color: #f5f6f9;
+    margin: 5px 15px 5px 5px;
+    justify-content: ;
+    position: relative;
+    
+}
+
+.baxparrent{
+    display: flex;
+    
+}
+
+.box1 i{
+    
+    font-family: elementskit!important;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+
+.col-lg-4{
+    width: 66%;
+}
+
+
+.h33{
+    margin-left: auto;
+    margin-right: auto;
+}
