@@ -208,9 +208,9 @@ clear: both;
 
 .maps{
     background-color: #007bff;
-    width: 880px;
-    height: 300px;
-    position: relative;
-    bottom: 900px;
-    left: 310px;
+    width: 880px !important;
+    height: 300px !important;
+    position: relative !important;
+    bottom: 900px !important;
+    left: 310px !important;
 }
