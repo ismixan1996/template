@@ -1,3 +1,17 @@
+var sickPrimary = {
+  autoplay: true,
+  autoplaySpeed: 2400,
+  slidesToShow: 2,
+  slidesToScroll: 1,
+  speed: 1800,
+  cssEase: 'cubic-bezier(.84, 0, .08, .99)',
+  asNavFor: '.text-slider',
+  centerMode: true,
+  prevArrow: $('.prev'),
+  nextArrow: $('.next')
+}
+
+
 
 
 // $(document).ready(function(){ 
@@ -102,17 +116,15 @@ var controller = (function (botCntr, uiCntr) {
         $chatBoxClose = $(".chat-box-toggle");
         $chatBoxWelcome = $(".chat-box-welcome__header");
         $chatWraper = $("#chat-box__wraper");
-        $chatInput = $("#chat-input__text");
-        $submitBtn = $("#chat-submit");
+        
+        
 
-        //1. call toggle 
+       
         $chatCircle.on("click", hideCircle);
         $chatBoxClose.on("click", chatBoxCl);
         $chatInput.on("click", chatOpenMessage);
 
-        //2. call wait message from CRM-human
-
-        $submitBtn.on("click", chatSbmBtn);
+       
         $chatInput.on("keypress", chatSbmBtn);
 
     }
@@ -858,5 +870,41 @@ function showSlides() {
   }
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 3000); // Change image every 2 seconds
+  setTimeout(showSlides, 5000); // Change image every 2 seconds
 }
+
+
+
+// let slideIndex1 = 0;
+// showSlides();
+
+// function showSlides() {
+//   let i;
+//   let slides = document.getElementsByClassName("mySlides1");
+//   let dots = document.getElementsByClassName("dot");
+//   for (i = 0; i < slides.length; i++) {
+//     slides[i].style.display = "none";  
+//   }
+//   slideIndex1++;
+//   if (slideIndex1 > slides.length) {slideIndex = 1}    
+//   for (i = 0; i < dots.length; i++) {
+//     dots[i].className = dots[i].className.replace(" active", "");
+//   }
+//   slides[slideIndex1-1].style.display = "block";  
+//   dots[slideIndex1-1].className += " active";
+//   setTimeout(showSlides, 4000); // Change image every 2 seconds
+// }
+
+
+AOS.init();
+
+AOS.init({
+  infinite:true,
+          autoplay: true,
+          autoplaySpeed: 1000,
+          speed: 700,
+          dots: false,
+          fade: true,
+          arrows: false,
+          dots: true,
+});
