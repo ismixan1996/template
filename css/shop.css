@@ -32,7 +32,7 @@
 .icons{
     /* position: absolute; */
     background-color: #fbb509;
-    border-radius: 50px !important;
+    border-radius: 10px !important;
     width: 50px;
     height: 25px;
     font-size: 15px;
@@ -56,6 +56,71 @@
     
 }
 
+.buttonn_icon {
+    display: flex;
+    width: 15%;
+}
+
+
+
+
+
+
+
+
+/* .buttons_icon:hover{
+    opacity: 1;
+} */
+/* .buttons_icon:hover{
+    opacity: 1;
+} */
+
+.buttonn_icon img {
+
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    border-radius: 10%;
+    max-width: 30%;
+    height: 15%;
+
+    padding: 7px;
+}
+
+/* .buttons:hover + .buttons_icon{
+    opacity: 1;
+} */
+.buttonn_icon img:hover {
+    background-color: rgb(96, 96, 241);
+    color: white;
+
+}
+
+.how-image-1{
+    position: relative;
+    top: 30px;
+height:190px;
+}
+
+
+
+.hov-image-2 {
+    position: relative;
+    bottom: 72% !important;
+opacity: 0;
+
+}
+
+.row-class-div:hover .hov-image-2 {
+
+    opacity: 1;
+    transition: 1s;
+}
+
+.row-class-div:hover .hov-image-1 {
+
+    opacity: 0;
+    transition: 0.5s;
+}
 
 /* .buttons_icon:hover{
     opacity: 1;
