@@ -1936,3 +1936,26 @@ footer{
     font-size: 25px;
     opacity: 1 !important;
 }
+
+
+
+@media only screen and (max-width: 780px){
+    .rowe {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #best-seller  .product-carousel-title{
+        margin-bottom: 40px;
+
+    }
+
+    #best-seller  img{
+        margin-bottom: 40px;
+
+    }
+    .rowe1{
+        margin-top: 40px !important;
+    }
+}
+    
