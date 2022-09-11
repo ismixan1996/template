@@ -12,7 +12,7 @@ $(document).ready(function(){
    
     // });
 
-
+    
 
 //Get the button:
 mybutton = document.getElementById("myBtn");
@@ -35,7 +35,10 @@ function topFunction() {
 }
 
 
+$(document).ready(function () {
 
+ 
+});
 
 
 let shoesBtn = document.querySelector(".shoes-btn")
@@ -97,4 +100,9 @@ usdBtn.addEventListener("click",function(e) {
         e.preventDefault();
         $(".hamburger-item").fadeOut()
       })
+   
 
+
+
+      
+  
