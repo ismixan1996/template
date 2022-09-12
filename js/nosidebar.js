@@ -99,4 +99,4 @@ usdBtn.addEventListener("click",function(e) {
         e.preventDefault();
         $(".hamburger-item").fadeOut()
       })
-
+    
