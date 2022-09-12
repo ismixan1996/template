@@ -16,6 +16,7 @@
     position: relative;
     height: 10%;
     width: 10%;
+    z-index: 0 !important;
 } 
 .akifimg{
     position: relative;
@@ -37,29 +38,47 @@
     margin-left: auto;
     margin-right: auto;
 }
-.box1{
-    background-color: #f5f6f9;
-    margin: 5px 15px 5px 5px;
-    justify-content: ;
-    position: relative;
-    
-}
 
 .baxparrent{
     display: flex;
     
 }
 
+
+.box1{
+    
+    background-color: #f5f6f9;
+    margin: 5px 15px 5px 5px;
+    border: 2px solid #f5f6f9 ;
+    position: relative;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+
+    
+}
+
+
+.ogru:hover {
+    fill: #015ADE;
+    transition: 1s;
+    border-color: #015ADE;
+    color: #1f1b1b;
+}
+
+.box1:hover {
+    fill: #015ADE;
+    transition: 1s;
+    border-color: #015ADE;
+}
+
+
+
+
 .box1 i{
     
-    font-family: elementskit!important;
-    speak: none;
-    font-style: normal;
-    font-weight: 400;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
+    color: #015ADE;
+    font-size: 70px;
+    
 }
 
 .img-about-2 .col-lg-4{
