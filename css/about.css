@@ -58,6 +58,28 @@
 }
 
 
+@keyframes nextarrow {
+    0%   {bottom: 0px !important;}
+  25%  {bottom: 10px !important;}
+  75%  {bottom: 5px !important}
+  100% {bottom: 20px !important;}
+    
+  }
+.animasiya:hover{
+    animation: nextarrow 5s infinite ;
+    position: relative;
+    
+ }
+ 
+ 
+
+
+
+ 
+  
+ 
+
+
 .ogru:hover {
     fill: #015ADE;
     transition: 1s;

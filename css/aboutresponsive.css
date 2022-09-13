@@ -124,7 +124,10 @@
     #navbar-responsive{display: block;
     top: 0;
     }
-
+    .akif{
+        display: flex;
+        flex-direction: column;
+    }
     #navbar-responsive .hamburger-item{
         position: absolute;
         background: #fff;

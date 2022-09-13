@@ -121,7 +121,9 @@
 
     #navbar{display: none;}
 
-    #navbar-responsive{display: block;}
+    #navbar-responsive{display: block;
+    top: 0;
+    }
 
     #navbar-responsive .hamburger-item{
         position: absolute;
@@ -130,7 +132,12 @@
         z-index: 1;
         width: 40%;
         padding: 10px 20px;
+        
     }
+
+
+
+    
 
     #navbar-responsive .hamburger-item{display: none;}
 
