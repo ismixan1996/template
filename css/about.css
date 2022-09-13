@@ -65,10 +65,16 @@
   100% {bottom: 20px !important;}
     
   }
+
+  
 .animasiya:hover{
-    animation: nextarrow 5s infinite ;
-    position: relative;
-    
+    animation-name: elementor-animation-bob-float,elementor-animation-bob;
+    animation-duration: .3s,1.5s;
+    animation-delay: 0s,.3s;
+    animation-timing-function: ease-out,ease-in-out;
+    animation-iteration-count: 1,infinite;
+    animation-fill-mode: forwards;
+    animation-direction: normal,alternate;
  }
  
  
